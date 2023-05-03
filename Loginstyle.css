@@ -1,16 +1,19 @@
+
+
 .userboard{
     border: solid 1px rgb(88,80,83);
     background-color:#E8B4B8;
     border: solid 1px ;
-    margin: 300px 450px;
+    margin: 300px 550px;
     padding: 100px 300px;
     border-radius: 20%; 
 }
-.input-signup{
+.input-login{
     border-radius: 20px;
     width: 450px;
     padding: 10px;
     margin-left: -140px;
+
 }
 .heading{
     color:rgb(88,80,83);
@@ -23,10 +26,22 @@ body{
 
 }
 .head{
-    font-size: 20px;
+    font-size: 50px;
 }
 .button{
     border-radius: 30%;
     background-color: blue;
     margin-left: 50px;
+}
+.social:link{
+    display: ;
+    margin: 15px;
+}
+.link{
+    margin-top: -20px;
+    padding-left: 10px;
+}
+.password a{
+    text-decoration: none;
+    color:#67595E;
 }
