@@ -1,0 +1,29 @@
+.userbody{
+    background-color: whitesmoke ;
+}
+img{
+    border: 1px ;
+    border-radius: 6px;
+    padding: 6px;
+    width: 300px;
+    margin-left: 50px;
+}
+section{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin: 70px 720px;
+    border: solid 1px transparent;
+    border-radius: 12%;
+    color: #67595E;
+    padding: 30px;
+    background-color: #E8B4B8;
+    box-shadow:10px 5px 5px #EED6D3;
+}
+.heading{
+    color: #585053;
+    align-content: center;
+    margin-left: 100px;
+    font-size: 35px;
+
+} 
