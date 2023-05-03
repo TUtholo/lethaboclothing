@@ -1,0 +1,27 @@
+.userbody{
+    background-color:#E8B4B8 ;
+    border: solid 1px ;
+    margin: 300px 550px;
+    padding: 100px 300px;
+    border-radius: 10%;
+    
+}
+.userboard{
+    color:#67595E ;
+}
+img{
+    border:1px;
+    border: radius 4px;
+    padding: 4px;
+    width: 50px;
+}
+.input-login{
+    border-radius: 10%;
+
+}
+.heading{
+    color:rgb(88,80,83)
+    alin-content: center;
+    margin-left: 100px;
+    font-size: 35px
+}
