@@ -1,0 +1,20 @@
+body {
+  background-color: #E8B4B8;
+}
+
+
+.userbody{
+    background-color:#E8B4B8;
+}
+
+h1{
+    color:"#67595E" ;
+}
+
+img{
+    border: 1px;
+    border-radius: 4px;
+    padding: 4px;
+    width: 200px;
+    height: 200px;
+}
