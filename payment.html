@@ -4,17 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Paymentstyle.css">
     <title>Document</title>
 </head>
-<h1>Payments</h1>
-<h4>Account Holder</h4><input type="text"/>
-<h4>Account Name</h4><input type="text"/>
-<h4>Card Number</h4><input type="alphanumeric"/>
-<h4>Sucurity code</h4><input type="alphanumeric"/>
-<h4>Valid Thurs</h4><input type="alphanumeric"/>
-<h4>Email Adress</h4><input type="alphanumeric"/>
-<h4>Contacts Details</h4><input type="alphanumeric"/>
-<body>
-    
+<body class="userbody">
+    <div>
+        <h2>Your Order</h2>
+        <h3>Item number</h3><input type="numeric"/>
+        <h3>Total</h3><input type="numeric"/>
+        <h3>License Name</h3><input type="alphanumeric"/>
+    </div>
+    <div>
+        <h2>Your Details</h2>
+        <h4>Full name</h4><input type="text"/>
+        <h4>Contact</h4><input type="alphanumeric">
+        <h4>Email</h4><input type="alphanumeric">
+        <h4>Location</h4><input type="alphanumeric">
+        <h4>Card Number</h4><input type="alphanumeric"><i class="fi fi-rr-credit-card"></i>
+    </div>
+    <div>
+        <h2>Payment</h2>
+        <div class ="payment-group">
+            <label for="payment-method">
+                <select id="payment-method" name=" payment-methoda"required>
+                    <option value="">--please select--</option>
+                    <option value="credit-card">Credit card</option>
+                    <option value="debit-card">Debit card</option>
+                    <option value="payapl">Paypal</option>
+                </select>
+            </div>
+        <form action="#"method ="post">
+                <h1>payment form</h1>
+                <h4 for="cc+Number">Card Number<h4>
+                <input id="cc-Number"name="cc-number"autocomplete="cc-Number"pattern="[\d]{10,30}"required>
+                <h4 for="cc-name">Name on card</h4>
+                <input id="cc-name"name="cc-name"autocomplete="cc-name"pattern="[\p{l}\-\.]+"required>
+                <div>
+                <h4 for="cc-exp">Expiry date (set dd to 01)</h4>
+                <input id="cc-exp" name="cc-exp" autocomplete="cc-exp" placeholder="MM/YY" maxlength="5"  type="date" required>
+                <div class="security">
+                    <h4>Security Code</h4>
+                    <p class="explanation">(Back of card,last 3 digit)</p>
+                    <input id="cc-csc" name="cc-csc" autocomplete="cc-csc" inputmode="numeric" maxlength="3" required>
+                </div>
+                <button id="complete-payment"> Complete payment</button>
+        </form>
+    </div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+        
+        
+        
+
+        
+            
